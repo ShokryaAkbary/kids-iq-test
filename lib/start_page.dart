@@ -9,7 +9,7 @@ class StartPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blue[900],
+        backgroundColor:  Color(0xFFF1B05A),
         body: Container(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -18,7 +18,7 @@ class StartPage extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.only(top: 90),
                   child: CircleAvatar(
-                    backgroundImage: AssetImage('assets/images/kids.jpg'),
+                    backgroundImage: AssetImage('images/kid.jpg'),
                     radius: 70,
                   ),
                 ),
